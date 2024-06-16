@@ -1,0 +1,33 @@
+/**===========DEFOLT========**/
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/**===================**/
+
+/**===========GALLERY========**/
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  flex-basis: calc(33.333% - 24px);
+}
+
+.gallery-link {
+  display: block;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  display: block;
+}
+
+/**===================**/
